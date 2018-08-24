@@ -13,6 +13,7 @@
       "timeEnd",
       "trace"
     ],
-    "no-submodule-imports": [true, "rxjs"]
+    "no-submodule-imports": [true, "rxjs", "ipfs"],
+    "no-unused-expression": [false, "allow-fast-null-checks"]
   }
 }
