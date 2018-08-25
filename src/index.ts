@@ -1,4 +1,5 @@
 export * from './lib/service/upload';
+export * from './lib/client/ipfs';
 export * from './lib/model/common/keypair';
 export * from './lib/model/privacy/privacy-strategy-type';
 export * from './lib/model/upload/upload-parameter';
