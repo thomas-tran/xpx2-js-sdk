@@ -52,8 +52,7 @@
   },
   "dependencies": {
     "ipfs-api": "^24.0.1",
-    "rxjs": "^6.2.2",
-    "sha.js": "^2.4.11"
+    "rxjs": "^6.0.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",
