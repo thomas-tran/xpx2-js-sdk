@@ -8,7 +8,7 @@ import { UploadResultRootData } from '../model/upload/upload-result-root-data';
 export class UploadService {
   public upload(uploadParam: UploadParameter): Observable<UploadResult> {
     console.log(uploadParam);
-    
+
     const dataMap = new Map();
     dataMap.set('author', 'Thomas');
 
@@ -34,11 +34,11 @@ export class UploadService {
     };
 
     const uploadResult: UploadResult = {
-        digest: 'test digret',
-        rootData: uploadRootData,
-        rootDataHash: 'data hash',
-        transactionHash: 'transaction hash'
-    }
+      digest: 'test digret',
+      rootData: uploadRootData,
+      rootDataHash: 'data hash',
+      transactionHash: 'transaction hash'
+    };
 
     return of(uploadResult);
   }
